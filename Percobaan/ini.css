@@ -1,0 +1,65 @@
+.marque {
+  background-color: rgba(163, 167, 170, 0.5);
+  height: 30px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  line-height: 30px;
+}
+.marque marquee {
+  font-size: 16px;
+  color: rgb(53, 10, 173);
+  font-weight: bold;
+}
+.box {
+  background-color: rgba(244, 255, 255, 0.4);
+  margin: auto;
+  width: 800px;
+}
+.halaman h1 {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.halaman ul {
+  padding-left: 7px;
+}
+.halaman li {
+  font-size: 20px;
+  display: inline-block;
+  padding: 5px;
+}
+.halaman a {
+  text-decoration: none;
+}
+.gambar {
+  height: 320px;
+  border-top: 8px solid rgb(5, 67, 138);
+  border-bottom: 8px solid rgb(153, 15, 15);
+  background-color: rgba(0, 0, 0, 1);
+  background-image: url(img/tulus.jpeg);
+  background-position: 0 -20px;
+  background-size: cover;
+}
+.Main {
+  padding: 0px 10px 0px 10px;
+  font-size: 17px;
+  font-family: Arial, sans-serif;
+}
+.Main .penulis {
+  margin-top: -12px;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer {
+  height: 35px;
+  background-color: midnightblue;
+  text-align: center;
+  font-size: 17px;
+  color: aliceblue;
+  line-height: 35px;
+  padding: 2px;
+}
+body {
+  background-image: linear-gradient(100deg, red, blue);
+}

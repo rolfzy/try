@@ -1,0 +1,139 @@
+@font-face {
+  font-family: suny-spell;
+  src: url(Fonts/SunnyspellsRegular-MV9ze.otf);
+}
+body {
+  background-color: #5cdb95;
+  background-image: url(img/Desain\ tanpa\ judul.jpg);
+  background-repeat: no-repeat;
+  background-size: 1400px;
+}
+
+body h1 {
+  color: #edf5e1;
+  font-family: suny-spell;
+  font-weight: bolder;
+  word-spacing: 3px;
+  font-size: 70px;
+}
+h1:hover {
+  color: #05386b;
+}
+h2.video {
+  margin-top: -16px;
+  margin-left: 1000px;
+  position: absolute;
+  font-family: suny-spell;
+  font-size: 40px;
+  color: #edf5e1;
+}
+h2.kegiatan {
+  margin-top: 150px;
+  margin-left: 620px;
+  position: absolute;
+  font-family: suny-spell;
+  font-size: 40px;
+  color: #edf5e1;
+}
+
+body h2 {
+  margin-top: -16px;
+  margin-left: 230px;
+  position: absolute;
+  font-family: suny-spell;
+  font-size: 40px;
+  color: #edf5e1;
+}
+.isi {
+  background-color: #05386b;
+  width: 300px;
+  height: 50px;
+  margin: 90px 130px;
+  border: 3px solid #8ee4af;
+  border-radius: 10%;
+  box-shadow: 0px 30px 10px -20px rgb(0, 0, 0, 75%);
+}
+.isi P {
+  text-align: center;
+  line-height: 0px;
+
+  font-family: suny-spell;
+  font-size: 30px;
+}
+.isi a {
+  text-decoration: none;
+  color: #edf5e1;
+}
+.isi a:hover {
+  color: rgb(253, 117, 38);
+}
+.isi {
+  background-color: #05386b;
+  width: 300px;
+  height: 50px;
+  margin: 90px 130px;
+  border: 3px solid #8ee4af;
+  border-radius: 10%;
+  box-shadow: 0px 30px 10px -20px rgb(0, 0, 0, 75%);
+}
+.isi P {
+  text-align: center;
+  line-height: 0px;
+
+  font-family: suny-spell;
+  font-size: 30px;
+}
+.isi a {
+  text-decoration: none;
+  color: #edf5e1;
+}
+.isi a:hover {
+  color: rgb(253, 117, 38);
+}
+.videobox {
+  background-color: #05386b;
+  width: 300px;
+  height: 50px;
+  margin: -70px 750px;
+  border: 3px solid #8ee4af;
+  border-radius: 10%;
+  box-shadow: 0px 30px 10px -20px rgb(0, 0, 0, 75%);
+}
+.videobox P {
+  text-align: center;
+  line-height: 0px;
+
+  font-family: suny-spell;
+  font-size: 30px;
+}
+.videobox a {
+  text-decoration: none;
+  color: #edf5e1;
+}
+.videobox a:hover {
+  color: rgb(253, 117, 38);
+}
+
+.kegiatanbox {
+  background-color: #05386b;
+  width: 300px;
+  height: 50px;
+  margin: 50px 520px;
+  border: 3px solid #8ee4af;
+  border-radius: 10%;
+  box-shadow: 0px 30px 10px -20px rgb(0, 0, 0, 75%);
+}
+.kegiatanbox P {
+  text-align: center;
+  line-height: 0px;
+
+  font-family: suny-spell;
+  font-size: 30px;
+}
+.kegiatanbox a {
+  text-decoration: none;
+  color: #edf5e1;
+}
+.kegiatanbox a:hover {
+  color: rgb(253, 117, 38);
+}

@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(61, 4, 194);
+}
+.container {
+  width: 75px;
+  margin-left: 70px;
+  margin-top: 5px;
+}
+.title {
+  font-size: 43px;
+  font-family: Geneva, monospace;
+  font-style: oblique;
+  color: rgb(245, 224, 224);
+}
+.Panelbox {
+  background-position: 30px;
+  background-position-x: 175px;
+  width: 1500px;
+  margin-bottom: 20px;
+  background-image: url("microphone-vintage-retro-mic-line-pop-art-potrait-logo-colorful-design-with-dark-background-abstract-illustration-vector.jpg");
+}
+.text {
+  font-size: 31px;
+  margin-bottom: 20px;
+  color: rgb(74, 172, 253);
+}
+
+.picture {
+  width: 250px;
+  height: 250px;
+  border: 7px solid rgb(236, 223, 223);
+  margin: 10px 30px 30px 30px;
+  background-size: 800px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-image: url("giveon.jpg");
+  background-position: -300px -210px;
+}
+.picture2 {
+  width: 250px;
+  height: 250px;
+  border: 7px solid rgb(243, 240, 240);
+  margin: 20px 20px 20px 40px;
+  background-size: 600px;
+  display: inline-block;
+  background-image: url("tulus.jpeg");
+  background-position: -160px -3px;
+}
+.picture3 {
+  width: 250px;
+  height: 250px;
+  border: 5px solid rgb(233, 230, 230);
+  margin: 10px 20px 20px 300px;
+
+  display: inline-block;
+  background-image: url("eren.jpg");
+  background-position: -170px -100px;
+}
+
+.Artisbox {
+  font-size: 23px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: slateblue;
+  text-align: center;
+  width: auto;
+  background-color: whitesmoke;
+}
+
+.footer .p {
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  color: aliceblue;
+}

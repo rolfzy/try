@@ -1,0 +1,2 @@
+var angkot = 6 ; var jumlahangkot = 10; var nomorangkot=1; for(var nomotangkot; nomorangkot <= jumlahangkot; nomorangkot++) {if (nomorangkot <= 6 && nomorangkot !== 5) {console.log("Angkot No : "+nomorangkot+'berfungsi dengan baik')
+}else if(nomorangkot === 8 || nomorangkot === 10 || nomorangkot === 5  ){console.log('Angkot NO : '+nomorangkot+' sedang lembur ')}else{console.log('Angkot NO : '+nomorangkot+' sedang tidak berorperasi ')}}

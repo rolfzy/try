@@ -1,0 +1,148 @@
+body {
+  font: 16px/12px sans-serif;
+  background-image: url(img/galxy.jpg);
+}
+
+.top-bar {
+  position: fixed;
+  height: 40px;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: mediumslateblue;
+  border-bottom: 5px solid seashell;
+  z-index: 3;
+}
+
+.container {
+  width: 960px;
+  margin: 80px auto;
+  background-color: midnightblue;
+  position: relative;
+}
+
+.container .IG {
+  width: 200px;
+  height: 200px;
+  background-image: url(img/pngwing.com.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -9999px;
+  position: absolute;
+  top: -30px;
+  right: -45px;
+}
+
+.header {
+  padding: 20px;
+}
+.header .judul {
+  color: darkgray;
+  font-size: 40px;
+  font-weight: bold;
+}
+.header ul {
+  padding-left: 0px;
+}
+.header ul li {
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 3px;
+}
+.header a {
+  text-decoration: none;
+  color: steelblue;
+  font-weight: bold;
+}
+.header a:hover {
+  background-color: rgb(247, 134, 82);
+}
+
+.picture {
+  height: 320px;
+  border-top: 5px solid snow;
+  border-bottom: 5px solid seashell;
+  background-size: cover;
+  background-position: 0 -240px;
+  background-image: url(img/perpus.jpg);
+}
+
+.main {
+  width: 600px;
+  padding: 20px;
+  box-sizing: border-box;
+  float: left;
+}
+.main h2 {
+  font-size: 27px;
+  font-weight: bold;
+  color: darkgray;
+}
+.main .penulis {
+  font-size: 12px;
+  margin-top: -7px;
+  color: white;
+}
+.main a {
+  color: coral;
+  text-decoration: none;
+}
+.main a:hover {
+  color: lavender;
+}
+
+.main p {
+  color: lightblue;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.sidebar {
+  width: 300px;
+  color: beige;
+  float: right;
+  padding: 20px;
+}
+
+.sidebar img {
+  width: 75px;
+  height: 75px;
+  float: left;
+  padding: 10px;
+}
+.sidebar p {
+  font: 13px/15px sans-serif;
+  color: aquamarine;
+  padding-bottom: 10px;
+}
+
+.sidebar a {
+  color: orangered;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.footer {
+  background-color: rgb(8, 8, 99);
+  padding: 2px;
+}
+.footer .copy {
+  text-align: center;
+  font-size: 14px;
+  color: silver;
+  font-weight: bold;
+}
+
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}

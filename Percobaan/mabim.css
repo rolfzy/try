@@ -1,0 +1,16 @@
+.header {
+}
+.bio {
+  margin: 50px;
+  border: 20px;
+  color: rgb(243, 243, 243);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.hobi {
+  margin: 50px;
+}
+body {
+  background-color: rgb(19, 121, 124);
+  background-image: url("galxy.jpg");
+}
